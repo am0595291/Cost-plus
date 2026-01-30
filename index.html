@@ -1,0 +1,474 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cost Plus Packages - Vertexas SEO Services</title>
+  <meta name="description" content="Vertexas offers transparent Cost Plus SEO pricing. Pay only real costs plus a fixed markup (20-70%). No hidden fees. Perfect for startups to enterprises seeking full transparency.">
+  
+  <!-- Schema Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Cost Plus SEO Services",
+    "provider": {
+      "@type": "Organization",
+      "name": "Vertexas",
+      "url": "https://www.vertexas.com"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Cost Plus Pricing Packages",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Starter Package"
+          },
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": "500-800",
+            "priceCurrency": "USD",
+            "referenceQuantity": {
+              "@type": "QuantitativeValue",
+              "value": "1",
+              "unitCode": "MON"
+            }
+          }
+        }
+      ]
+    }
+  }
+  </script>
+  
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Arial, sans-serif; background: #f9f9f9; color: #222; line-height: 1.6; }
+    
+    /* Header */
+    header { display: flex; align-items: center; justify-content: space-between; background: #003c8f; padding: 10px 40px; }
+    header span { color: white; font-size: 22px; font-weight: bold; letter-spacing: 1px; }
+    header a { color: white; text-decoration: none; padding: 8px 16px; background: #0052b5; border-radius: 4px; transition: background 0.3s; }
+    header a:hover { background: #004080; }
+    
+    /* Hero */
+    .hero { background: linear-gradient(to right, #003c8f, #0052b5); color: white; text-align: center; padding: 80px 20px; }
+    .hero h1 { font-size: 36px; margin-bottom: 10px; }
+    .hero p { font-size: 18px; max-width: 700px; margin: 20px auto; line-height: 1.8; }
+    
+    /* Section */
+    section { padding: 60px 20px; }
+    section h2 { font-size: 28px; margin-bottom: 20px; color: #003c8f; text-align: center; }
+    
+    /* Info Box */
+    .info-box { background: #fff3cd; border-left: 5px solid #ffc107; padding: 30px; max-width: 900px; margin: 30px auto; border-radius: 8px; }
+    .info-box h3 { color: #856404; margin-top: 0; margin-bottom: 15px; }
+    .info-box ul { line-height: 2; margin-left: 20px; }
+    
+    /* Package Box */
+    .package-grid { display: grid; gap: 40px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); text-align: left; max-width: 1000px; margin: 0 auto; }
+    .package-box { background: #f8f9fa; padding: 30px; border-radius: 12px; }
+    .package-box.starter { border-left: 5px solid #0052b5; }
+    .package-box.growth { border-left: 5px solid #28a745; }
+    .package-box.professional { border-left: 5px solid #ffc107; }
+    .package-box.enterprise { border-left: 5px solid #dc3545; }
+    .package-box h3 { color: #003c8f; margin-bottom: 10px; }
+    .package-target { font-weight: 600; color: #666; font-size: 14px; margin-bottom: 15px; }
+    .package-margin { font-weight: 600; font-size: 18px; margin: 15px 0; }
+    .package-box ul { list-style: none; padding-left: 0; line-height: 1.8; margin: 10px 0; }
+    .package-box ul li { padding-left: 20px; position: relative; }
+    .package-box ul li:before { content: "•"; position: absolute; left: 0; font-weight: bold; }
+    .formula-box { background: white; padding: 15px; margin-top: 20px; border-radius: 8px; font-family: monospace; font-size: 14px; }
+    .example-box { background: #e7f3ff; padding: 15px; margin-top: 15px; border-radius: 8px; }
+    
+    /* Pricing Cards */
+    .pricing { display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; margin-top: 30px; }
+    .price-card { background: white; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); padding: 40px 30px; width: 300px; position: relative; transition: transform 0.3s; }
+    .price-card:hover { transform: translateY(-5px); }
+    .price-card.featured { border: 3px solid #ffc107; }
+    .price-card .badge { background: #ffc107; color: #003c8f; padding: 5px 15px; border-radius: 20px; font-size: 12px; font-weight: bold; position: absolute; top: -15px; left: 50%; transform: translateX(-50%); }
+    .price-card h3 { color: #003c8f; margin-bottom: 10px; font-size: 24px; }
+    .price-range { font-size: 36px; color: #0052b5; font-weight: bold; margin: 20px 0; }
+    .price-range span { font-size: 16px; color: #666; font-weight: normal; }
+    .price-note { font-size: 13px; color: #666; margin-bottom: 10px; font-style: italic; }
+    .timeline { background: #e7f3ff; padding: 8px 12px; border-radius: 4px; font-size: 13px; color: #0052b5; font-weight: 600; margin: 10px 0; border-left: 3px solid #0052b5; }
+    .price-card ul { list-style: none; padding: 0; line-height: 2; text-align: left; margin: 20px 0; }
+    .price-card ul li:before { content: "✓ "; color: #28a745; font-weight: bold; }
+    .best-for { font-size: 13px; color: #666; font-style: italic; margin-top: 15px; }
+    .btn { display: inline-block; background: #0052b5; color: white; padding: 12px 30px; border-radius: 6px; text-decoration: none; font-weight: bold; margin-top: 20px; transition: background 0.3s; }
+    .btn:hover { background: #003c8f; }
+    .btn-primary { background: #ffc107; color: #003c8f; }
+    .btn-primary:hover { background: #e6b800; }
+    
+    /* Timeline */
+    .timeline-box { background: white; padding: 30px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); max-width: 900px; margin-left: auto; margin-right: auto; margin-bottom: 20px; }
+    .timeline-box h3 { color: #0052b5; margin-bottom: 15px; }
+    .timeline-box ul { margin-left: 20px; line-height: 2; }
+    .highlight-box { background: #e7f3ff; padding: 15px; border-radius: 8px; margin-top: 15px; }
+    
+    /* Benefits Grid */
+    .benefits-grid { max-width: 900px; margin: 0 auto; text-align: left; display: grid; gap: 30px; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
+    .benefit-item { padding: 20px; }
+    .benefit-item h3 { color: #0052b5; font-size: 20px; margin-bottom: 10px; }
+    
+    /* Contact Section */
+    .contact-section { background: white; padding: 60px 20px; }
+    .contact-form { max-width: 600px; margin: 0 auto; }
+    .form-group { margin-bottom: 20px; }
+    .form-group label { display: block; margin-bottom: 5px; color: #003c8f; font-weight: 600; }
+    .form-group input, .form-group textarea, .form-group select { width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 6px; font-family: Arial, sans-serif; font-size: 14px; }
+    .form-group textarea { min-height: 120px; resize: vertical; }
+    
+    /* CTA Section */
+    .cta-section { background: #0052b5; color: white; padding: 60px 20px; text-align: center; }
+    .cta-section h2 { color: white; font-size: 30px; margin-bottom: 15px; }
+    .cta-section p { color: white; max-width: 600px; margin: 20px auto; }
+    
+    /* Footer */
+    footer { background: #003c8f; color: #ddd; text-align: center; padding: 30px 20px; font-size: 14px; margin-top: 0; }
+    footer a { color: #ffc107; text-decoration: none; transition: color 0.3s; }
+    footer a:hover { color: #fff; }
+    footer nav { margin-top: 15px; }
+    footer nav a { margin: 0 15px; color: #ddd; }
+    
+    @media (max-width: 768px) {
+      .hero h1 { font-size: 28px; }
+      .hero p { font-size: 16px; }
+      header { padding: 10px 20px; flex-direction: column; gap: 10px; }
+      .package-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header role="banner">
+    <span>VERTEXAS</span>
+    <a href="#top" aria-label="Return to top of page">↑ Back to Top</a>
+  </header>
+
+  <main>
+    <div class="hero">
+      <h1>Cost Plus Pricing Model</h1>
+      <p>Complete transparency in SEO pricing. You pay only for actual costs + our fixed markup. No hidden fees, no surprises. See exactly where every dollar goes with detailed monthly invoicing.</p>
+    </div>
+
+    <section>
+      <div class="info-box">
+        <h3>What is Cost Plus Pricing?</h3>
+        <p>Cost Plus is a transparent pricing model where you pay the actual cost of services (tools, content creation, link building, freelancers, etc.) plus a fixed percentage markup for our management, expertise, and overhead.</p>
+        <ul>
+          <li><strong>Full Transparency:</strong> We share all invoices, receipts, and expenses with you monthly</li>
+          <li><strong>Better Value:</strong> No inflated pricing - you see exactly what services cost</li>
+          <li><strong>Trust-Based:</strong> Perfect for long-term partnerships built on transparency</li>
+          <li><strong>Flexible Budget:</strong> Scale services up or down based on actual needs</li>
+        </ul>
+        <p style="margin-top: 15px;"><strong>Important:</strong> The monthly service fee covers our time for management, reporting, strategy, and client communication. All direct costs (tools, vendors, freelancers) are billed at actual cost + markup percentage.</p>
+      </div>
+    </section>
+
+    <section style="background: white;">
+      <h2>Cost Plus Markup Structure</h2>
+      <div class="package-grid">
+        
+        <div class="package-box starter">
+          <h3>Starter Package</h3>
+          <p class="package-target">Target: Individuals / small startups</p>
+          <p class="package-margin">Markup: 20–25%</p>
+          <p><strong>Included Services:</strong></p>
+          <ul>
+            <li>Basic SEO audit</li>
+            <li>On-page optimization (5-10 pages)</li>
+            <li>Keyword research (up to 20 keywords)</li>
+            <li>Monthly reporting</li>
+          </ul>
+          
+          <div class="formula-box">
+            <strong>Formula:</strong><br>
+            Price = Actual Cost + 20–25%
+          </div>
+          
+          <div class="example-box">
+            <strong>Example:</strong><br>
+            Actual Cost: $400<br>
+            Your Price: $480–$500
+          </div>
+        </div>
+
+        <div class="package-box growth">
+          <h3>Growth Package</h3>
+          <p class="package-target">Target: Small to medium businesses</p>
+          <p class="package-margin">Markup: 30–35%</p>
+          <p><strong>Included Services:</strong></p>
+          <ul>
+            <li>All Starter features</li>
+            <li>Content creation (2-4 articles/month)</li>
+            <li>Link building (5-10 links/month)</li>
+            <li>Technical SEO improvements</li>
+            <li>Competitor analysis</li>
+          </ul>
+          
+          <div class="formula-box">
+            <strong>Formula:</strong><br>
+            Price = Actual Cost + 30–35%
+          </div>
+          
+          <div class="example-box">
+            <strong>Example:</strong><br>
+            Actual Cost: $750<br>
+            Your Price: $975–$1,013
+          </div>
+        </div>
+
+        <div class="package-box professional">
+          <h3>Professional Package</h3>
+          <p class="package-target">Target: Established businesses</p>
+          <p class="package-margin">Markup: 40–45%</p>
+          <p><strong>Included Services:</strong></p>
+          <ul>
+            <li>All Growth features</li>
+            <li>Advanced content strategy (6-8 articles/month)</li>
+            <li>Premium link building (15-20 links/month)</li>
+            <li>Conversion rate optimization</li>
+            <li>Local SEO (if applicable)</li>
+            <li>Quarterly strategy reviews</li>
+          </ul>
+          
+          <div class="formula-box">
+            <strong>Formula:</strong><br>
+            Price = Actual Cost + 40–45%
+          </div>
+          
+          <div class="example-box">
+            <strong>Example:</strong><br>
+            Actual Cost: $1,500<br>
+            Your Price: $2,100–$2,175
+          </div>
+        </div>
+
+        <div class="package-box enterprise">
+          <h3>Enterprise Package</h3>
+          <p class="package-target">Target: Large organizations / agencies</p>
+          <p class="package-margin">Markup: 50–70%</p>
+          <p><strong>Included Services:</strong></p>
+          <ul>
+            <li>All Professional features</li>
+            <li>Enterprise-level content production</li>
+            <li>White-label reporting options</li>
+            <li>Dedicated account manager</li>
+            <li>Custom integrations & workflows</li>
+            <li>Priority support & SLA</li>
+            <li>Multi-location SEO</li>
+          </ul>
+          
+          <div class="formula-box">
+            <strong>Formula:</strong><br>
+            Price = Actual Cost + 50–70%
+          </div>
+          
+          <div class="example-box">
+            <strong>Example:</strong><br>
+            Actual Cost: $500<br>
+            Your Price: $750–$850
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section>
+      <h2>Estimated Monthly Investment</h2>
+      <p style="text-align: center; max-width: 800px; margin: 0 auto 30px; color: #666;">These ranges represent typical monthly spend including actual costs + markup + service fee. Your actual cost may vary based on services used.</p>
+      <div class="pricing">
+        <div class="price-card">
+          <h3>Starter</h3>
+          <p class="price-note">Estimated Monthly Investment</p>
+          <div class="price-range">$500-$800<span>/M</span></div>
+          <div class="timeline">20-25% markup on actual costs</div>
+          <ul>
+            <li>$200 monthly management fee</li>
+            <li>Cost calculation & reporting</li>
+            <li>Monthly invoice breakdown</li>
+            <li>Basic support</li>
+          </ul>
+          <p class="best-for">Best for: Small teams or startups</p>
+          <a href="#contact" class="btn">Request Cost Breakdown</a>
+        </div>
+
+        <div class="price-card">
+          <h3>Growth</h3>
+          <p class="price-note">Estimated Monthly Investment</p>
+          <div class="price-range">$1,000-$1,500<span>/M</span></div>
+          <div class="timeline">30-35% markup on actual costs</div>
+          <ul>
+            <li>$350 monthly management fee</li>
+            <li>All Starter features</li>
+            <li>Monthly analytics</li>
+            <li>Onboarding support</li>
+            <li>Quarterly strategy calls</li>
+          </ul>
+          <p class="best-for">Best for: Growing businesses</p>
+          <a href="#contact" class="btn">Request Cost Breakdown</a>
+        </div>
+
+        <div class="price-card featured">
+          <div class="badge">RECOMMENDED</div>
+          <h3>Professional</h3>
+          <p class="price-note">Estimated Monthly Investment</p>
+          <div class="price-range">$2,000-$3,000<span>/M</span></div>
+          <div class="timeline">40-45% markup on actual costs</div>
+          <ul>
+            <li>$600 monthly management fee</li>
+            <li>All Growth features</li>
+            <li>Custom cost modeling</li>
+            <li>Priority support</li>
+            <li>Performance reports</li>
+          </ul>
+          <p class="best-for">Best for: Established companies</p>
+          <a href="#contact" class="btn btn-primary">Request Cost Breakdown</a>
+        </div>
+
+        <div class="price-card">
+          <h3>Enterprise</h3>
+          <p class="price-note">Estimated Monthly Investment</p>
+          <div class="price-range">Custom<span> pricing</span></div>
+          <div class="timeline">50-70% markup on actual costs</div>
+          <ul>
+            <li>$1,200+ monthly management fee</li>
+            <li>All Professional features</li>
+            <li>Custom contracts & policies</li>
+            <li>Dedicated account lead</li>
+            <li>Annual audit & optimization</li>
+            <li>SLA & priority support</li>
+          </ul>
+          <p class="best-for">Best for: Large organizations</p>
+          <a href="#contact" class="btn">Schedule Consultation</a>
+        </div>
+      </div>
+    </section>
+
+    <section style="background: white;">
+      <h2>Project Timeline & Billing Process</h2>
+      
+      <div class="timeline-box">
+        <h3>Phase 1: Execution / Development (Main Phase)</h3>
+        <p><strong>Duration:</strong> Depends on project size</p>
+        <ul>
+          <li>Small project: 1–2 months</li>
+          <li>Medium project: 3–6 months</li>
+          <li>Large project: 6–18 months</li>
+        </ul>
+        <p style="margin-top: 20px;"><strong>During This Phase:</strong></p>
+        <ul>
+          <li>Client is billed periodically (monthly or bi-weekly)</li>
+          <li>All costs are transparent with receipts</li>
+          <li>Scope can adjust without full contract renegotiation</li>
+        </ul>
+        <div class="highlight-box">
+          <strong>Reporting:</strong> Weekly or monthly cost reports with detailed breakdowns
+        </div>
+      </div>
+
+      <div class="timeline-box">
+        <h3>Phase 2: Review & Adjustments</h3>
+        <p><strong>Duration:</strong> 1–4 weeks</p>
+        <ul>
+          <li>Fix issues and bugs</li>
+          <li>Improvements based on feedback</li>
+          <li>Final testing and quality inspection</li>
+        </ul>
+      </div>
+
+      <div class="timeline-box">
+        <h3>Phase 3: Final Accounting & Closure</h3>
+        <p><strong>Duration:</strong> 1–2 weeks</p>
+        <ul>
+          <li>Final cost calculation with all receipts</li>
+          <li>Apply agreed markup percentage</li>
+          <li>Project handover and documentation</li>
+          <li>Close contract with final invoice</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Why Choose Cost Plus?</h2>
+      <div class="benefits-grid">
+        <div class="benefit-item">
+          <h3>Better Value</h3>
+          <p>Pay only for what you use. No inflated package pricing that includes services you don't need.</p>
+        </div>
+        <div class="benefit-item">
+          <h3>Full Transparency</h3>
+          <p>See every invoice, receipt, and expense. Know exactly where your money goes each month.</p>
+        </div>
+        <div class="benefit-item">
+          <h3>Trust-Based</h3>
+          <p>Built for long-term partnerships. We succeed when you succeed, not by hiding costs.</p>
+        </div>
+        <div class="benefit-item">
+          <h3>Scalable</h3>
+          <p>Easily adjust services based on results and budget. No rigid package constraints.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <h2>Get Your Custom Cost Breakdown</h2>
+      <p style="text-align: center; max-width: 700px; margin: 0 auto 30px; color: #666;">
+        Request a detailed sample invoice and see exactly how we structure our pricing. No obligations, just transparency.
+      </p>
+      <div class="contact-form">
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <div class="form-group">
+            <label for="name">Full Name *</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="company">Company Name</label>
+            <input type="text" id="company" name="company">
+          </div>
+          
+          <div class="form-group">
+            <label for="package">Interested Package *</label>
+            <select id="package" name="package" required>
+              <option value="">Select a package</option>
+              <option value="starter">Starter ($500-$800/month)</option>
+              <option value="growth">Growth ($1,000-$1,500/month)</option>
+              <option value="professional">Professional ($2,000-$3,000/month)</option>
+              <option value="enterprise">Enterprise (Custom)</option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label for="message">Tell us about your needs</label>
+            <textarea id="message" name="message" placeholder="What are your SEO goals? What services are you most interested in?"></textarea>
+          </div>
+          
+          <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 10px;">Request Sample Invoice</button>
+        </form>
+        <p style="text-align: center; margin-top: 20px; font-size: 14px; color: #666;">
+          Or email us directly at: <a href="mailto:info@vertexas.com" style="color: #0052b5;">info@vertexas.com</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>&copy; 2025 Vertexas. All rights reserved.</p>
+    <nav role="navigation" aria-label="Footer navigation">
+      <a href="#top">Back to Top</a>
+      <a href="https://www.linkedin.com/company/105091805/admin/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    </nav>
+    <p style="margin-top: 15px; font-size: 12px; color: #999;">
+      Note: Create separate pages for Privacy Policy and Terms & Conditions as needed.
+    </p>
+  </footer>
+</body>
+</html>
